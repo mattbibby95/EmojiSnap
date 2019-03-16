@@ -1,0 +1,27 @@
+
+body {
+  background-color: #c1ebff
+}
+
+.Wrapper {
+  display: grid;
+  height: 100vh;
+  border: 3px;
+  box-sizing: border-box;
+  align-content: center;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.EmojiCard {
+  height: 18vh;
+  width: 15vw;
+  background-color: #2196F3;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 18vh;
+}
+
+
