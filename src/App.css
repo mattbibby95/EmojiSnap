@@ -16,13 +16,15 @@ body {
 }
 
 .EmojiCard {
+  cursor: pointer;
   height: 18vh;
   width: 15vw;
   background-color: #2196F3;
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: center;
   line-height: 18vh;
   font-size: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 
